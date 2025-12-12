@@ -1,0 +1,43 @@
+<<<<<<< HEAD
+# Pinning to modern, stable versions of LangChain
+langchain>=0.1.0
+langchain-community>=0.0.30
+langchain-core>=0.1.30
+langchain-google-genai
+google-generativeai>=0.3.0
+pydantic==1.10.13
+matplotlib==3.7.2
+seaborn==0.12.2 
+
+# Dependenciespip install
+langchain-text-splitters
+sentence-transformers
+transformers
+huggingface-hub
+faiss-cpu
+pypdf
+streamlit
+python-dotenv
+contextlib-tee
+=======
+streamlit==1.35.0
+python-dotenv==1.0.1
+matplotlib
+seaborn
+
+# --- LangChain (Pinned to a known-good, modern, and stable set) ---
+langchain==0.2.1
+langchain-core==0.2.5
+langchain-community==0.2.1
+langchain-text-splitters==0.2.0
+langchain-google-genai==1.0.5
+langchain-huggingface==0.0.3
+
+# --- Core RAG and AI Components ---
+faiss-cpu==1.8.0
+sentence-transformers==2.7.0
+pypdf==4.2.0
+
+# --- Google Specific Dependency ---
+google-generativeai==0.5.4
+>>>>>>> 66f698d7453cf8faa86e6248bfc137033ed1c108
